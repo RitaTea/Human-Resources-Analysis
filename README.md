@@ -1,1 +1,9 @@
 # Human-Resources-Analysis
+
+This project was a deep dive into the employee database of a company, exploring various aspects of its workforce.  I started by getting familiar with the data, looking at the different tables and their structures, like getting to know the characters in a story.  Then, I began asking questions.  I wanted to know the gender balance of the company, how many employees were in each department, and what the salary ranges looked like.  I even looked at how long employees' salary contracts were and how hiring trends had changed over time.
+
+I also wanted to see if there were any patterns in salaries, like if there was a difference in average salary between men and women in the same department.  And I tried to find out who was hired in a specific year, like 2000.  To make things more efficient, I created a stored procedure, a bit like a mini-program, to easily retrieve an employee's last department.  I also set up a trigger, a kind of automatic rule, to make sure that no one could be hired in the future – their hire date had to be today or in the past.
+
+Then, I used some advanced techniques called window functions to analyze salaries in more detail.  I wanted to see how each employee's salary ranked compared to others and how their salary changed over time, comparing their current salary to their previous and next ones.  Finally, I used a common table expression (CTE), which is like creating a temporary table for a specific query, to find out how many male employees had their highest salary below the average salary of the entire company.
+
+Essentially, this project was all about uncovering insights from the employee data, using a variety of SQL techniques to answer different questions about the workforce.  It was about taking raw data and turning it into a story about the company's employees.
